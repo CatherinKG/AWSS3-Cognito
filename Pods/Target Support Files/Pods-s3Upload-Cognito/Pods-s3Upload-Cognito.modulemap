@@ -1,0 +1,6 @@
+framework module Pods_s3Upload_Cognito {
+  umbrella header "Pods-s3Upload-Cognito-umbrella.h"
+
+  export *
+  module * { export * }
+}
