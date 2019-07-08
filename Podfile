@@ -7,6 +7,5 @@ target 's3Upload-Cognito' do
 
   # Pods for s3Upload-Cognito
     pod 'AWSS3'
-    pod 'AWSCognitoIdentityProvider'
 
 end

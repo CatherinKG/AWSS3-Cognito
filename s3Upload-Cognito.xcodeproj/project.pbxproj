@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		0DA725BD22CE1FF200C52032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA725BB22CE1FF200C52032 /* Main.storyboard */; };
 		0DA725BF22CE1FF300C52032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA725BE22CE1FF300C52032 /* Assets.xcassets */; };
 		0DA725C222CE1FF300C52032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA725C022CE1FF300C52032 /* LaunchScreen.storyboard */; };
+		0DA725CA22CE25B500C52032 /* AmazonIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA725C922CE25B500C52032 /* AmazonIdentityProvider.swift */; };
 		C8A333E900C6576AE27E3AF0 /* Pods_s3Upload_Cognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55504C5602678826D8D4624B /* Pods_s3Upload_Cognito.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		0DA725BE22CE1FF300C52032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA725C122CE1FF300C52032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA725C322CE1FF300C52032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA725C922CE25B500C52032 /* AmazonIdentityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonIdentityProvider.swift; sourceTree = "<group>"; };
 		55504C5602678826D8D4624B /* Pods_s3Upload_Cognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_s3Upload_Cognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78619990F847D3965E7A1B7A /* Pods-s3Upload-Cognito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s3Upload-Cognito.debug.xcconfig"; path = "Target Support Files/Pods-s3Upload-Cognito/Pods-s3Upload-Cognito.debug.xcconfig"; sourceTree = "<group>"; };
 		7E840D3486CAC01D6D89F286 /* Pods-s3Upload-Cognito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-s3Upload-Cognito.release.xcconfig"; path = "Target Support Files/Pods-s3Upload-Cognito/Pods-s3Upload-Cognito.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				0DA725BE22CE1FF300C52032 /* Assets.xcassets */,
 				0DA725C022CE1FF300C52032 /* LaunchScreen.storyboard */,
 				0DA725C322CE1FF300C52032 /* Info.plist */,
+				0DA725C922CE25B500C52032 /* AmazonIdentityProvider.swift */,
 			);
 			path = "s3Upload-Cognito";
 			sourceTree = "<group>";
@@ -85,7 +88,6 @@
 				78619990F847D3965E7A1B7A /* Pods-s3Upload-Cognito.debug.xcconfig */,
 				7E840D3486CAC01D6D89F286 /* Pods-s3Upload-Cognito.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA725CA22CE25B500C52032 /* AmazonIdentityProvider.swift in Sources */,
 				0DA725BA22CE1FF200C52032 /* ViewController.swift in Sources */,
 				0DA725B822CE1FF200C52032 /* AppDelegate.swift in Sources */,
 			);
@@ -355,7 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BV7434PN2K;
 				INFOPLIST_FILE = "s3Upload-Cognito/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BV7434PN2K;
 				INFOPLIST_FILE = "s3Upload-Cognito/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

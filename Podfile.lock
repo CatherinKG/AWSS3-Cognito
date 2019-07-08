@@ -1,29 +1,20 @@
 PODS:
-  - AWSCognitoIdentityProvider (2.9.1):
-    - AWSCognitoIdentityProviderASF (= 1.0.1)
-    - AWSCore (= 2.9.1)
-  - AWSCognitoIdentityProviderASF (1.0.1)
   - AWSCore (2.9.1)
   - AWSS3 (2.9.1):
     - AWSCore (= 2.9.1)
 
 DEPENDENCIES:
-  - AWSCognitoIdentityProvider
   - AWSS3
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AWSCognitoIdentityProvider
-    - AWSCognitoIdentityProviderASF
     - AWSCore
     - AWSS3
 
 SPEC CHECKSUMS:
-  AWSCognitoIdentityProvider: ced9888fd7d9742a6667cbff00e21bac3c631fc8
-  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
   AWSCore: de39c337b7cb32c7a2c6402f45ecf4e50498000e
   AWSS3: 1feca899851eb4d45ca16860e441da658e1b852d
 
-PODFILE CHECKSUM: 3528e13edf278d86fe3516ebd62ae04befe97909
+PODFILE CHECKSUM: fe2817222c6008d0c19d228d1a11a5a9a0f1d64c
 
 COCOAPODS: 1.7.0
